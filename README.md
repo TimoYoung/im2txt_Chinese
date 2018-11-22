@@ -2,7 +2,7 @@
 深度学习实现图像中文描述项目实践
 ## 简介
 基于tensorflow的深度学习项目。实现了输入一张图片自动生成基于图片内容的自然语言描述。   
-代码主体来自于Tensorflow Model repository中的**[im2txt](https://github.com/tensorflow/models/tree/master/research/im2txt)**项目。 本项目没有改动任何模型算法，只是在生成语言描述部分进行中文复现。 
+代码主体来自于Tensorflow Model repository中的 **[im2txt](https://github.com/tensorflow/models/tree/master/research/im2txt)** 项目。 本项目没有改动任何模型算法，只是在生成语言描述部分进行中文复现。 
 数据集采用AI Challenger **[图像中文描述数据集](https://challenger.ai/dataset/caption)**
 ## 模型介绍
 本项目采用了**Show and Tell**模型。见于论文：  
@@ -33,7 +33,7 @@
 * 在*main*中配置如何分配训练集，验证集和测试集的大小
 
 ```
-	train_cutoff = int(0.8 * len(AI_Challenger_val_dataset))
+    train_cutoff = int(0.8 * len(AI_Challenger_val_dataset))
     val_cutoff = int(0.90 * len(AI_Challenger_val_dataset))
 
     train_dataset = AI_Challenger_val_dataset[:train_cutoff]
@@ -55,7 +55,7 @@
 开启第三个进程运行tensorboard 可视化训练过程  
 
 ```
-            tensorboard --logdir="path/to/model/dir"                                           
+    tensorboard --logdir="path/to/model/dir"                                           
 ```
 
 
