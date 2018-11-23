@@ -1,5 +1,5 @@
 # im2txt_Chinese
-深度学习实现图像中文描述项目实践
+深度学习实现图像中文描述项目实践 image caption Chinese  Deep Learning 
 ## 简介
 基于tensorflow的深度学习项目。实现了输入一张图片自动生成基于图片内容的自然语言描述。   
 代码主体来自于Tensorflow Model repository中的 **[im2txt](https://github.com/tensorflow/models/tree/master/research/im2txt)** 项目。 本项目没有改动任何模型算法，只是在生成语言描述部分进行中文复现。 
